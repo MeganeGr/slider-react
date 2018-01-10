@@ -1,0 +1,21 @@
+.App{
+display: flex
+}
+  .slider-container{
+  width: 400px;
+  height: 400px;
+  overflow: hidden
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  margin: 0;padding: 0;
+  transition: all 0.5s ease-in-out;
+
+}
+
+li img{
+width: 400px;
+height: 400px;
+}
