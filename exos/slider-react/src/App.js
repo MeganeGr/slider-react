@@ -21,10 +21,11 @@ class App extends Component {
     position: 0
   }
   previousSlide = () => {
+    const { position } = this.state
     this.setState({
-      position: --this.state.position
+      position: --position
     });
-    if (this.state.position < 0)
+    if (position < 0)
       this.setState({
         position: slides.length - 1
       });
